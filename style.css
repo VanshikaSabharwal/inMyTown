@@ -27,7 +27,7 @@
   text-decoration: none;
   color: black;
   margin-top: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   padding: 5px 10px;
   position: relative;
   top: 12px;
@@ -133,4 +133,12 @@ select {
 .productListContainer .products .product img {
   width: 200px;
   height: 200px;
+}
+
+/* media query */
+@media (max-width: 450px) {
+  .productListContainer .products .product img {
+    width: 330px;
+    height: 200px;
+  }
 }
