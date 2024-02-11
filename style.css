@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Labrada:ital@0;1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  background-image: url(img/inMyTown_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.topContainer {
+  width: 100%;
+}
+.topContainer ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  gap: 1.9rem;
+  /* margin-top: .5rem; */
+  margin-right: 1rem;
+}
+.topContainer ul li a {
+  text-decoration: none;
+  color: black;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  position: relative;
+  top: 12px;
+}
+.topContainer ul li a:hover {
+  background-color: rgba(153, 152, 152, 0.61);
+  border-radius: 15px;
+  padding: 5px 10px;
+  position: relative;
+  bottom: 17px;
+  color: aliceblue;
+}
+.midSection {
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.midSection h1 {
+  font-size: 4rem;
+  font-family: "Cedarville Cursive", cursive;
+  font-family: "Labrada", serif;
+}
+.midSection h3 {
+  text-align: center;
+  margin: 0 0.8rem;
+}
+.locationUser {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.locationUser #getLocationBtn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: rgb(96, 95, 95);
+  cursor: pointer;
+  padding: 0 16px;
+  transition: all 0.3s ease;
+}
+.locationDropDown {
+  border: 1px solid #000;
+}
+.bi-geo-alt-fill {
+  border: 1px solid #000;
+}
+.locationNav {
+  display: flex;
+  flex-direction: row;
+}
+.bi-caret-down-fill {
+  cursor: pointer;
+}
+
+/* search  */
+.searchCategoryContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 0;
+  gap: 1rem;
+}
+.searchCategoryContainer .searchContainer input {
+  width: 18rem;
+}
+.searchCategoryContainer .searchContainer button {
+  padding: 3px 4x;
+  font-size: 15px;
+  border: 2px solid grey;
+  border-radius: 7px;
+  width: 5rem;
+}
+
+.searchCategoryContainer .categoryContainer {
+}
+select {
+  word-wrap: normal;
+  width: 22rem;
+  text-align: center;
+  height: 1.7rem;
+}
+.productListContainer {
+  margin-top: 4rem;
+}
+.productListContainer h1 {
+  text-align: center;
+}
+.productListContainer .products {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  list-style: none;
+}
+.productListContainer .products .product img {
+  width: 200px;
+  height: 200px;
+}
