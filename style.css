@@ -130,6 +130,10 @@ select {
   list-style: none;
   flex-wrap: wrap;
 }
+.productListContainer .products a {
+  text-decoration: none;
+  color: #000;
+}
 .productListContainer .products .product img {
   width: 200px;
   height: 200px;
@@ -149,6 +153,38 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+
+/* pages */
+/* makeup page  */
+.makeupProducts {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.makeupProducts h1 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.makeupProducts ul li img {
+  width: 250px;
+  height: 300px;
+}
+.makeupProducts ul li {
+  list-style: none;
+}
+.makeupProducts ul a {
+  text-decoration: none;
+  color: #000;
+  width: 250px;
+  height: 400px;
+}
+.makeupProductsList {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 /* media query */
